@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{title}}</title>
+<meta name="description" content="{{meta_desc}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site_name}}">
+<meta property="og:title" content="{{og_title}}">
+<meta property="og:description" content="{{meta_desc}}">
+<meta property="og:url" content="{{canonical}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{og_title}}">
+<meta name="twitter:description" content="{{meta_desc}}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏔️</text></svg>">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{{jsonld}}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="{{site_name}} home">🏔️ {{site_name}}</a>
+    <nav class="main-nav" aria-label="Main navigation">
+      {{nav_links}}
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+<main>
+{{content}}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <strong>{{site_name}}</strong>
+        <p>The gamified checklist for visiting all 63 U.S. national parks. Track your progress, earn achievements, and plan your next adventure.</p>
+      </div>
+      <div>
+        <strong>Tools</strong>
+        <ul>
+          <li><a href="/check-off/">Check Off National Parks</a></li>
+          <li><a href="/tracker/">National Park Tracker</a></li>
+          <li><a href="/counter/">National Park Counter</a></li>
+          <li><a href="/visited-map/">Visited Parks Map</a></li>
+          <li><a href="/interactive-map/">Interactive Park Map</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Passport</strong>
+        <ul>
+          <li><a href="/passport-stamps/">Passport Stamps Guide</a></li>
+          <li><a href="/passport-book/">Passport Book Guide</a></li>
+          <li><a href="/park-planner/">Trip Planner</a></li>
+          <li><a href="/quiz/">National Park Trivia Quiz</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-note">{{site_name}} is an independent fan project and is not affiliated with the U.S. National Park Service. Park information is for general guidance; always check <a href="https://www.nps.gov" rel="noopener">nps.gov</a> for current conditions, fees, and alerts.</p>
+    <p class="footer-note">© 2026 {{site_name}}. Made for park collectors.</p>
+  </div>
+</footer>
+<script src="/assets/js/parks-data.js"></script>
+<script src="/assets/js/app.js"></script>
+{{extra_js}}
+</body>
+</html>
