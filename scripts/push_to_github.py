@@ -12,7 +12,9 @@ import concurrent.futures
 import json
 import os
 import sys
+import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 sys.path.insert(0, "/opt/hatch/skills/skill-creator/bin")
@@ -51,25 +53,42 @@ def collect_files():
     return out
 
 
+def qpath(rel):
+    return "/".join(urllib.parse.quote(seg) for seg in rel.split("/"))
+
+
+def get_sha(owner, repo, rel):
+    try:
+        cur = api("GET", f"/repos/{owner}/{repo}/contents/{qpath(rel)}")
+        return cur.get("sha"), (cur.get("content") or "").replace("\n", "")
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None, None
+        raise
+
+
 def push_one(owner, repo, rel, full, message):
     with open(full, "rb") as fh:
         content = base64.b64encode(fh.read()).decode()
-    sha = None
-    try:
-        cur = api("GET", f"/repos/{owner}/{repo}/contents/{rel}")
-        sha = cur.get("sha")
-    except urllib.error.HTTPError as e:
-        if e.code != 404:
-            raise
-    # skip if content identical
-    if sha and cur.get("content"):
-        existing = cur["content"].replace("\n", "")
-        if existing == content:
-            return f"skip (unchanged) {rel}"
+    sha, existing = get_sha(owner, repo, rel)
+    if sha and existing == content:
+        return f"skip (unchanged) {rel}"
     body = {"message": message, "content": content}
     if sha:
         body["sha"] = sha
-    api("PUT", f"/repos/{owner}/{repo}/contents/{rel}", body)
+    try:
+        api("PUT", f"/repos/{owner}/{repo}/contents/{qpath(rel)}", body)
+    except urllib.error.HTTPError as e:
+        if e.code == 409:
+            # concurrent-create race on a fresh repo: re-fetch sha and retry once
+            time.sleep(1)
+            sha, _ = get_sha(owner, repo, rel)
+            body = {"message": message, "content": content}
+            if sha:
+                body["sha"] = sha
+            api("PUT", f"/repos/{owner}/{repo}/contents/{qpath(rel)}", body)
+        else:
+            raise
     return f"pushed {rel}"
 
 
