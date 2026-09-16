@@ -1,0 +1,635 @@
+[
+  {
+    "name": "Acadia",
+    "slug": "acadia",
+    "states": ["ME"],
+    "state_names": ["Maine"],
+    "region": "Northeast",
+    "intro": "Acadia protects a rugged stretch of Maine's Atlantic coast, where forested mountains meet the sea. Cadillac Mountain, one of the first places in the United States to see the sunrise, anchors the park's scenic loop road. Visitors come for rocky shorelines, carriage roads built for horse-drawn traffic, and tide pools full of life.",
+    "highlights": ["Sunrise from Cadillac Mountain", "Park Loop Road and rocky coastline", "Historic carriage roads", "Jordan Pond and the Bubbles"],
+    "best_for": "Coastal hikes, sunrise views, and family-friendly biking"
+  },
+  {
+    "name": "American Samoa",
+    "slug": "american-samoa",
+    "states": ["AS"],
+    "state_names": ["American Samoa"],
+    "region": "Pacific",
+    "intro": "The only U.S. national park south of the equator, American Samoa spans tropical rainforest, coral reefs, and volcanic islands. Much of the park is leased from local villages, so Samoan culture is part of every visit. Snorkeling the reefs and hiking to waterfalls are the signature experiences.",
+    "highlights": ["Coral reefs off Ofu Beach", "Rainforest trails and waterfalls", "Samoan village culture", "Flying foxes (fruit bats)"],
+    "best_for": "Snorkeling, tropical rainforest, and cultural travel"
+  },
+  {
+    "name": "Arches",
+    "slug": "arches",
+    "states": ["UT"],
+    "state_names": ["Utah"],
+    "region": "West",
+    "intro": "Arches holds one of the densest concentrations of natural stone arches anywhere on Earth. Delicate Arch, Landscape Arch, and the Windows Section draw photographers from around the world. Desert trails wind between fins, balanced rocks, and ancient petroglyph panels.",
+    "highlights": ["Delicate Arch at sunset", "Landscape Arch in Devils Garden", "The Windows Section", "Fiery Furnace ranger hike"],
+    "best_for": "Iconic desert arches, photography, and short hikes"
+  },
+  {
+    "name": "Badlands",
+    "slug": "badlands",
+    "states": ["SD"],
+    "state_names": ["South Dakota"],
+    "region": "Midwest",
+    "intro": "The Badlands are a maze of eroded buttes, pinnacles, and spires striped in pink, red, and cream. Fossil beds here preserve one of the richest mammal fossil records of their era. Bison, bighorn sheep, and prairie dogs still roam the surrounding mixed-grass prairie.",
+    "highlights": ["Badlands Loop Road overlooks", "Fossil exhibit trail", "Bison and bighorn sheep", "Sunrise and sunset colors"],
+    "best_for": "Scenic drives, fossils, and wildlife watching"
+  },
+  {
+    "name": "Big Bend",
+    "slug": "big-bend",
+    "states": ["TX"],
+    "state_names": ["Texas"],
+    "region": "South",
+    "intro": "Big Bend is one of the most remote parks in the Lower 48, wrapping the Chisos Mountains and a long stretch of the Rio Grande. Desert, mountains, and river meet in a landscape that feels genuinely wild. Hot springs, canyon river trips, and dark night skies are the draws.",
+    "highlights": ["Santa Elena Canyon", "Chisos Basin trails", "Hot Springs Historic Trail", "Some of the darkest skies in Texas"],
+    "best_for": "Remote desert adventure, river trips, and stargazing"
+  },
+  {
+    "name": "Biscayne",
+    "slug": "biscayne",
+    "states": ["FL"],
+    "state_names": ["Florida"],
+    "region": "South",
+    "intro": "Biscayne is almost entirely water, protecting coral reefs, mangrove shorelines, and the northernmost Florida Keys. Most visitors arrive by boat to snorkel or dive the reefs and the Maritime Heritage Trail's shipwrecks. Manatees, sea turtles, and hundreds of bird species use the park.",
+    "highlights": ["Coral reef snorkeling and diving", "Maritime Heritage Trail shipwrecks", "Mangrove shorelines", "Elliott Key camping"],
+    "best_for": "Snorkeling, diving, and boating"
+  },
+  {
+    "name": "Black Canyon of the Gunnison",
+    "slug": "black-canyon-of-the-gunnison",
+    "states": ["CO"],
+    "state_names": ["Colorado"],
+    "region": "West",
+    "intro": "The Gunnison River carved a canyon so narrow and deep that sunlight barely reaches the bottom in places. Sheer walls of dark rock drop dramatically from the rim viewpoints. It is a park for vertigo-inducing overlooks and serious backcountry routes.",
+    "highlights": ["Painted Wall, the tallest cliff in Colorado", "Chasm View overlook", "South Rim Drive", "Inner canyon wilderness routes"],
+    "best_for": "Dramatic overlooks and challenging backcountry"
+  },
+  {
+    "name": "Bryce Canyon",
+    "slug": "bryce-canyon",
+    "states": ["UT"],
+    "state_names": ["Utah"],
+    "region": "West",
+    "intro": "Bryce is an amphitheater of hoodoos, tall thin spires of frost-wedged rock glowing orange and pink. Sunrise Point and Sunset Point frame the most famous views. Trails descend among the hoodoos into a maze you can walk through.",
+    "highlights": ["Hoodoo amphitheaters", "Sunrise and Sunset Points", "Navajo Loop Trail", "Award-winning dark skies"],
+    "best_for": "Hoodoos, sunrise views, and stargazing"
+  },
+  {
+    "name": "Canyonlands",
+    "slug": "canyonlands",
+    "states": ["UT"],
+    "state_names": ["Utah"],
+    "region": "West",
+    "intro": "Canyonlands is Utah's wildest red-rock country, split by the Green and Colorado Rivers into four districts. Island in the Sky offers vast overlooks, while the Needles and the Maze demand real backcountry commitment. Mesa Arch at sunrise is an icon of the American West.",
+    "highlights": ["Mesa Arch at sunrise", "Island in the Sky overlooks", "The Needles district", "Whitewater on the Colorado River"],
+    "best_for": "Vast canyon overlooks and backcountry adventure"
+  },
+  {
+    "name": "Capitol Reef",
+    "slug": "capitol-reef",
+    "states": ["UT"],
+    "state_names": ["Utah"],
+    "region": "West",
+    "intro": "Capitol Reef protects the Waterpocket Fold, a great wrinkle in the Earth's crust of cliffs, domes, and canyons. The historic orchards of Fruita still bear fruit that visitors can pick in season. The scenic drive and the Cathedral Valley backcountry road show the park's range.",
+    "highlights": ["Waterpocket Fold geology", "Fruita's historic orchards", "Hickman Bridge", "Cathedral Valley loop"],
+    "best_for": "Geology, orchards, and uncrowded red rock"
+  },
+  {
+    "name": "Carlsbad Caverns",
+    "slug": "carlsbad-caverns",
+    "states": ["NM"],
+    "state_names": ["New Mexico"],
+    "region": "West",
+    "intro": "Beneath the Chihuahuan Desert, Carlsbad Caverns hides one of the world's largest cave chambers. The Big Room's trail loops past towering stalagmites and draperies. On summer evenings, crowds gather for the famous bat flight from the cave's natural entrance.",
+    "highlights": ["The Big Room", "Evening bat flight program", "Natural Entrance trail", "King's Palace tour"],
+    "best_for": "Cave tours and the bat flight spectacle"
+  },
+  {
+    "name": "Channel Islands",
+    "slug": "channel-islands",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Five remarkable islands off the Southern California coast make up this park, sometimes called the Galapagos of North America. Isolation produced unique species found nowhere else, like the island fox. Sea caves, kelp forests, and cliff hikes reward the boat trip over.",
+    "highlights": ["Island foxes", "Sea kayaking through sea caves", "Anacapa Island views", "Snorkeling kelp forests"],
+    "best_for": "Unique wildlife, kayaking, and island hiking"
+  },
+  {
+    "name": "Congaree",
+    "slug": "congaree",
+    "states": ["SC"],
+    "state_names": ["South Carolina"],
+    "region": "South",
+    "intro": "Congaree shelters the largest intact expanse of old-growth bottomland hardwood forest in the Southeast. Towering trees rise over a floodplain laced with boardwalk trails. In early summer, synchronous fireflies light up the forest at night.",
+    "highlights": ["Boardwalk loop trail", "Old-growth champion trees", "Synchronous fireflies", "Canoeing Cedar Creek"],
+    "best_for": "Old-growth forest, boardwalks, and fireflies"
+  },
+  {
+    "name": "Crater Lake",
+    "slug": "crater-lake",
+    "states": ["OR"],
+    "state_names": ["Oregon"],
+    "region": "West",
+    "intro": "Crater Lake fills the collapsed caldera of Mount Mazama with famously deep, blue water. Wizard Island rises from the lake's surface and is reachable by boat tour in summer. The Rim Drive circles some of the most photographed overlooks in the West.",
+    "highlights": ["The lake's intense blue color", "Wizard Island boat tour", "Rim Drive overlooks", "Winter snowshoeing"],
+    "best_for": "The bluest lake views and rim drives"
+  },
+  {
+    "name": "Cuyahoga Valley",
+    "slug": "cuyahoga-valley",
+    "states": ["OH"],
+    "state_names": ["Ohio"],
+    "region": "Midwest",
+    "intro": "Between Cleveland and Akron, Cuyahoga Valley protects forests, waterfalls, and farmland along the winding Cuyahoga River. Brandywine Falls is the signature stop. The Towpath Trail follows the historic Ohio and Erie Canal route.",
+    "highlights": ["Brandywine Falls", "Ohio and Erie Canal Towpath Trail", "Cuyahoga Valley Scenic Railroad", "The Ledges overlook"],
+    "best_for": "Waterfalls, biking, and easy day trips"
+  },
+  {
+    "name": "Death Valley",
+    "slug": "death-valley",
+    "states": ["CA", "NV"],
+    "state_names": ["California", "Nevada"],
+    "region": "West",
+    "intro": "The largest national park in the Lower 48, Death Valley is a land of extremes: below-sea-level salt flats, sand dunes, and towering peaks. Mesquite Flat Dunes, Badwater Basin, and Zabriskie Point are the classics. Winter is the prime visiting season.",
+    "highlights": ["Badwater Basin salt flats", "Mesquite Flat Sand Dunes", "Zabriskie Point", "Gold-tier dark skies"],
+    "best_for": "Extreme landscapes and winter desert trips"
+  }
+,
+  {
+    "name": "Denali",
+    "slug": "denali",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "Denali centers on North America's tallest peak, rising over a vast subarctic wilderness. A single road runs into the park, with buses carrying visitors to look for grizzlies, caribou, and wolves. The mountain itself hides in clouds more often than not, making a clear view a prize.",
+    "highlights": ["Denali, North America's tallest peak", "Wildlife viewing along the park road", "Sled dog kennels", "Vast subarctic wilderness"],
+    "best_for": "Big wildlife and true Alaskan scale"
+  },
+  {
+    "name": "Dry Tortugas",
+    "slug": "dry-tortugas",
+    "states": ["FL"],
+    "state_names": ["Florida"],
+    "region": "South",
+    "intro": "Seventy miles west of Key West, Dry Tortugas pairs the massive brick Fort Jefferson with pristine reefs. Reachable only by boat or seaplane, it is one of the least-visited national parks. Snorkeling the moat wall and touring the fort fill a classic day trip.",
+    "highlights": ["Fort Jefferson", "Snorkeling the moat wall", "Ferry or seaplane journey", "Sea turtles and nesting birds"],
+    "best_for": "History, snorkeling, and remote island escape"
+  },
+  {
+    "name": "Everglades",
+    "slug": "everglades",
+    "states": ["FL"],
+    "state_names": ["Florida"],
+    "region": "South",
+    "intro": "The Everglades is a slow-moving river of grass, the largest subtropical wilderness in the country. Alligators, wading birds, and the elusive Florida panther live here. The Anhinga Trail and Shark Valley are the classic wildlife walks.",
+    "highlights": ["Alligators on the Anhinga Trail", "Shark Valley tram tour", "Mangrove tunnels by canoe", "Wading bird rookeries"],
+    "best_for": "Wildlife watching and subtropical wilderness"
+  },
+  {
+    "name": "Gates of the Arctic",
+    "slug": "gates-of-the-arctic",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "Gates of the Arctic has no roads, no trails, and no visitor facilities, just Brooks Range wilderness above the Arctic Circle. It is the northernmost national park in the system. Visitors must be fully self-sufficient and ready for true wilderness.",
+    "highlights": ["The Brooks Range", "Caribou migration", "No roads, no trails, no crowds", "Arctic backpacking"],
+    "best_for": "Serious wilderness backpacking"
+  },
+  {
+    "name": "Gateway Arch",
+    "slug": "gateway-arch",
+    "states": ["MO"],
+    "state_names": ["Missouri"],
+    "region": "Midwest",
+    "intro": "Gateway Arch commemorates westward expansion with a soaring stainless-steel arch over the St. Louis riverfront. Trams carry visitors to an observation deck at the top for views across the Mississippi. The museum below tells the story of the frontier.",
+    "highlights": ["Tram ride to the top", "Museum of Westward Expansion", "Mississippi riverfront", "The Old Courthouse"],
+    "best_for": "City stop, history, and skyline views"
+  },
+  {
+    "name": "Glacier",
+    "slug": "glacier",
+    "states": ["MT"],
+    "state_names": ["Montana"],
+    "region": "West",
+    "intro": "Glacier's Going-to-the-Sun Road crosses the Continental Divide through alpine valleys and past turquoise lakes. The park's namesake glaciers are shrinking but still visible from trails. Grizzlies, mountain goats, and historic lodges complete the picture.",
+    "highlights": ["Going-to-the-Sun Road", "Logan Pass", "Many Glacier valley", "Historic park lodges"],
+    "best_for": "Alpine scenery and classic mountain lodges"
+  },
+  {
+    "name": "Glacier Bay",
+    "slug": "glacier-bay",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "Glacier Bay is a fjord wilderness of tidewater glaciers calving into the sea. Most visitors arrive by cruise ship or day boat. Humpback whales, sea otters, and bald eagles are constant companions on the water.",
+    "highlights": ["Tidewater glaciers calving", "Whale watching", "Bartlett Cove", "Sea kayaking"],
+    "best_for": "Glaciers, whales, and fjord scenery"
+  },
+  {
+    "name": "Grand Canyon",
+    "slug": "grand-canyon",
+    "states": ["AZ"],
+    "state_names": ["Arizona"],
+    "region": "West",
+    "intro": "The Grand Canyon needs little introduction: a mile-deep chasm exposing layer upon layer of geologic time. The South Rim's overlooks and the Bright Angel Trail are the essential experiences. Mule trips and river rafting go deeper into the canyon.",
+    "highlights": ["South Rim overlooks", "Bright Angel Trail", "Desert View Watchtower", "Colorado River rafting"],
+    "best_for": "The essential American canyon experience"
+  },
+  {
+    "name": "Grand Teton",
+    "slug": "grand-teton",
+    "states": ["WY"],
+    "state_names": ["Wyoming"],
+    "region": "West",
+    "intro": "The Tetons rise abruptly from the valley floor with almost no foothills, one of the most dramatic mountain skylines in America. Jenny Lake and the Snake River overlooks are icons. Moose, elk, and bears frequent the valley below the peaks.",
+    "highlights": ["The Teton skyline", "Jenny Lake", "Mormon Row barns", "Moose and elk viewing"],
+    "best_for": "Dramatic peaks, lakes, and wildlife"
+  },
+  {
+    "name": "Great Basin",
+    "slug": "great-basin",
+    "states": ["NV"],
+    "state_names": ["Nevada"],
+    "region": "West",
+    "intro": "Great Basin protects Wheeler Peak, ancient bristlecone pine groves, and the decorated Lehman Caves. It is one of the darkest, quietest parks in the system. The scenic drive climbs from desert to alpine in a single afternoon.",
+    "highlights": ["Lehman Caves tours", "Ancient bristlecone pines", "Wheeler Peak", "Exceptional dark skies"],
+    "best_for": "Caves, ancient trees, and solitude"
+  },
+  {
+    "name": "Great Sand Dunes",
+    "slug": "great-sand-dunes",
+    "states": ["CO"],
+    "state_names": ["Colorado"],
+    "region": "West",
+    "intro": "North America's tallest dunes rise against the Sangre de Cristo Mountains in southern Colorado. Visitors sandboard and sled the dunes, then cool off in Medano Creek. The contrast of sand and snowcapped peaks is surreal.",
+    "highlights": ["Sandboarding the dunes", "Medano Creek", "Dune field at sunrise", "Stargazing"],
+    "best_for": "Sandboarding and surreal desert scenery"
+  },
+  {
+    "name": "Great Smoky Mountains",
+    "slug": "great-smoky-mountains",
+    "states": ["TN", "NC"],
+    "state_names": ["Tennessee", "North Carolina"],
+    "region": "South",
+    "intro": "America's most-visited national park, the Smokies are a misty range of ancient mountains with extraordinary biodiversity. Synchronous fireflies, black bears, and historic homesteads draw millions each year. Cades Cove and Clingmans Dome are the classics.",
+    "highlights": ["Cades Cove loop", "Synchronous fireflies", "Clingmans Dome", "Fall color"],
+    "best_for": "Biodiversity, fall color, and classic Americana"
+  },
+  {
+    "name": "Guadalupe Mountains",
+    "slug": "guadalupe-mountains",
+    "states": ["TX"],
+    "state_names": ["Texas"],
+    "region": "South",
+    "intro": "Guadalupe Mountains holds the highest point in Texas and a fossilized ancient reef exposed in stone. El Capitan's cliff face is a landmark of the Chihuahuan Desert. McKittrick Canyon glows with fall color each autumn.",
+    "highlights": ["Guadalupe Peak, the Texas high point", "El Capitan cliff", "McKittrick Canyon", "Fossil reef geology"],
+    "best_for": "Desert peaks and fall color in Texas"
+  },
+  {
+    "name": "Haleakala",
+    "slug": "haleakala",
+    "states": ["HI"],
+    "state_names": ["Hawaii"],
+    "region": "West",
+    "intro": "Haleakala's summit watches the sunrise above a sea of clouds over a vast volcanic crater. The park spans from the summit down through rainforest to coastal pools. Silverswords bloom only on these high volcanic slopes.",
+    "highlights": ["Sunrise above the clouds", "The volcanic crater", "Silversword plants", "Pipiwai Trail and Waimoku Falls"],
+    "best_for": "Sunrise, volcanic landscapes, and rainforest"
+  },
+  {
+    "name": "Hawaii Volcanoes",
+    "slug": "hawaii-volcanoes",
+    "states": ["HI"],
+    "state_names": ["Hawaii"],
+    "region": "West",
+    "intro": "This is the land of Pele: Kilauea and Mauna Loa, two of the world's most active volcanoes. Lava landscapes, steam vents, and the Chain of Craters Road show geology in real time. Eruptions come and go, so check current conditions before you go.",
+    "highlights": ["Kilauea volcano", "Lava landscapes", "Chain of Craters Road", "Thurston Lava Tube"],
+    "best_for": "Active volcanoes and otherworldly lava fields"
+  },
+  {
+    "name": "Hot Springs",
+    "slug": "hot-springs",
+    "states": ["AR"],
+    "state_names": ["Arkansas"],
+    "region": "South",
+    "intro": "Hot Springs is the oldest protected area in the system, set aside before the national park idea existed. Bathhouse Row's grand buildings line Central Avenue, with thermal water still flowing. Hike the surrounding hills, then take a traditional thermal bath.",
+    "highlights": ["Bathhouse Row", "Traditional thermal baths", "Historic downtown", "Forest hiking trails"],
+    "best_for": "History, hot springs, and small-city charm"
+  }
+,
+  {
+    "name": "Indiana Dunes",
+    "slug": "indiana-dunes",
+    "states": ["IN"],
+    "state_names": ["Indiana"],
+    "region": "Midwest",
+    "intro": "Indiana Dunes protects a long stretch of Lake Michigan shoreline with towering dunes, wetlands, and prairies. It is one of the most botanically diverse parks in the system. Swimming, hiking, and birding make easy day trips from Chicago.",
+    "highlights": ["Lake Michigan beaches", "Dune ridge hikes", "Birding hotspots", "Remarkable plant diversity"],
+    "best_for": "Beaches, dunes, and easy Chicago day trips"
+  },
+  {
+    "name": "Isle Royale",
+    "slug": "isle-royale",
+    "states": ["MI"],
+    "state_names": ["Michigan"],
+    "region": "Midwest",
+    "intro": "Isle Royale is a roadless island wilderness in Lake Superior, reached only by ferry or seaplane. Wolves and moose play out a famous predator-prey study here. Backpackers and boaters find true solitude far from roads.",
+    "highlights": ["Wolves and moose", "Backpacking the Greenstone Ridge", "Total solitude", "Lake Superior setting"],
+    "best_for": "Backpacking and deep solitude"
+  },
+  {
+    "name": "Joshua Tree",
+    "slug": "joshua-tree",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Two deserts meet at Joshua Tree, where the spiky namesake trees dot a landscape of jumbled boulders. It is a world-class rock climbing destination and a stargazer's favorite. Keys View and the Cholla Cactus Garden are easy wins.",
+    "highlights": ["Joshua tree forests", "World-class rock climbing", "Stargazing", "Cholla Cactus Garden"],
+    "best_for": "Desert scenery, climbing, and night skies"
+  },
+  {
+    "name": "Katmai",
+    "slug": "katmai",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "Katmai is famous for brown bears fishing for salmon at Brooks Falls, one of the great wildlife spectacles on Earth. The Valley of Ten Thousand Smokes holds the ash of a massive early-1900s eruption. Access is by floatplane.",
+    "highlights": ["Bears at Brooks Falls", "Valley of Ten Thousand Smokes", "Salmon runs", "Floatplane arrival"],
+    "best_for": "Bear viewing and volcanic valleys"
+  },
+  {
+    "name": "Kenai Fjords",
+    "slug": "kenai-fjords",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "Kenai Fjords is a coastline of glaciers spilling from a vast icefield into the sea. Boat tours watch tidewater glaciers calve while orcas and puffins pass by. Exit Glacier is the one spot reachable by road.",
+    "highlights": ["Tidewater glaciers", "Glacier and wildlife boat tours", "Exit Glacier", "Orcas, puffins, and sea otters"],
+    "best_for": "Glacier cruises and marine wildlife"
+  },
+  {
+    "name": "Kings Canyon",
+    "slug": "kings-canyon",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Kings Canyon's namesake gorge is one of the deepest canyons in North America, and the General Grant Tree stands among the world's largest trees. The park adjoins Sequoia and shares its grandeur. Zumwalt Meadow and the scenic byway are highlights.",
+    "highlights": ["General Grant Tree", "Kings Canyon Scenic Byway", "Zumwalt Meadow", "Giant sequoia groves"],
+    "best_for": "Deep canyons and giant sequoias"
+  },
+  {
+    "name": "Kobuk Valley",
+    "slug": "kobuk-valley",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "Kobuk Valley protects the Great Kobuk Sand Dunes, an Arctic dune field crossed by migrating caribou. No roads lead in; access is by air taxi. It is one of the least-visited parks in the system.",
+    "highlights": ["Arctic sand dunes", "Caribou migration", "True remoteness", "Onion Portage"],
+    "best_for": "Expedition travel and Arctic wilderness"
+  },
+  {
+    "name": "Lake Clark",
+    "slug": "lake-clark",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "Lake Clark is a microcosm of Alaska: volcanoes, salmon streams, rainforest, and tundra in one park. Brown bears gather along the coast each summer. With no roads, floatplanes are the way in, and a famous homesteader's cabin at Twin Lakes is a pilgrimage site.",
+    "highlights": ["Coastal brown bears", "Volcanoes and glaciers", "Proenneke's cabin at Twin Lakes", "Floatplane wilderness"],
+    "best_for": "Bears, volcanoes, and off-grid Alaska"
+  },
+  {
+    "name": "Lassen Volcanic",
+    "slug": "lassen-volcanic",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Lassen is one of the few places on Earth with all four types of volcanoes. Bumpass Hell's steaming hydrothermal area and the summit trail are the draws. Snow lingers into summer, making for a short, sweet season.",
+    "highlights": ["Bumpass Hell hydrothermal area", "Lassen Peak summit", "All four volcano types", "Manzanita Lake"],
+    "best_for": "Volcanoes and uncrowded alpine scenery"
+  },
+  {
+    "name": "Mammoth Cave",
+    "slug": "mammoth-cave",
+    "states": ["KY"],
+    "state_names": ["Kentucky"],
+    "region": "South",
+    "intro": "Mammoth Cave is the longest known cave system in the world, with hundreds of miles of mapped passages. Tours range from easy walks to wild-cave crawls. Above ground, forested ridges hide sinkholes and springs.",
+    "highlights": ["Guided cave tours", "Frozen Niagara", "Wild cave tours", "Karst landscape above ground"],
+    "best_for": "Cave tours for every comfort level"
+  },
+  {
+    "name": "Mesa Verde",
+    "slug": "mesa-verde",
+    "states": ["CO"],
+    "state_names": ["Colorado"],
+    "region": "West",
+    "intro": "Mesa Verde preserves some of the best-preserved Ancestral Puebloan cliff dwellings in North America. Cliff Palace and Balcony House are visited on ranger-guided tours. The mesa-top villages tell an even older story.",
+    "highlights": ["Cliff Palace", "Balcony House", "Ranger-guided tours", "Chapin Mesa Museum"],
+    "best_for": "Cliff dwellings and archaeology"
+  },
+  {
+    "name": "Mount Rainier",
+    "slug": "mount-rainier",
+    "states": ["WA"],
+    "state_names": ["Washington"],
+    "region": "West",
+    "intro": "Mount Rainier is an active volcano wrapped in glaciers, the most heavily glaciated peak in the Lower 48. Wildflower meadows at Paradise and Sunrise draw summer crowds. The Wonderland Trail circles the entire mountain.",
+    "highlights": ["Wildflower meadows", "Paradise", "Sunrise", "Glacier views"],
+    "best_for": "Wildflowers, glaciers, and alpine meadows"
+  },
+  {
+    "name": "New River Gorge",
+    "slug": "new-river-gorge",
+    "states": ["WV"],
+    "state_names": ["West Virginia"],
+    "region": "South",
+    "intro": "America's newest national park centers on one of the oldest rivers on the continent. The New River Gorge Bridge spans the canyon in a single steel arch. Whitewater rafting, rock climbing, and fall color are the draws.",
+    "highlights": ["New River Gorge Bridge", "Whitewater rafting", "Rock climbing", "Bridge Day festival"],
+    "best_for": "Rafting, climbing, and Appalachian scenery"
+  },
+  {
+    "name": "North Cascades",
+    "slug": "north-cascades",
+    "states": ["WA"],
+    "state_names": ["Washington"],
+    "region": "West",
+    "intro": "The North Cascades are called the American Alps: jagged peaks and hundreds of glaciers in one of the wildest ranges in the Lower 48. Ross Lake and Diablo Lake glow turquoise. Trails are steep and the weather is serious.",
+    "highlights": ["Diablo Lake", "Cascade Pass", "Glacier-clad peaks", "Remote backcountry"],
+    "best_for": "Rugged alpine wilderness"
+  },
+  {
+    "name": "Olympic",
+    "slug": "olympic",
+    "states": ["WA"],
+    "state_names": ["Washington"],
+    "region": "West",
+    "intro": "Olympic packs three ecosystems into one park: glacier-capped mountains, temperate rainforest, and wild Pacific coastline. The Hoh Rainforest and Rialto Beach feel like different planets. Roosevelt elk roam the valleys.",
+    "highlights": ["Hoh Rainforest", "Rialto Beach", "Hurricane Ridge", "Tide pools"],
+    "best_for": "Rainforest, coast, and mountains in one trip"
+  },
+  {
+    "name": "Petrified Forest",
+    "slug": "petrified-forest",
+    "states": ["AZ"],
+    "state_names": ["Arizona"],
+    "region": "West",
+    "intro": "Petrified Forest's rainbow badlands hold one of the world's largest concentrations of petrified wood. The Painted Desert's colors shift through the day. Ancient petroglyphs and pueblo ruins add human history to the geology.",
+    "highlights": ["Rainbow petrified logs", "Painted Desert", "Newspaper Rock petroglyphs", "Blue Mesa"],
+    "best_for": "Petrified wood and painted desert color"
+  }
+,
+  {
+    "name": "Pinnacles",
+    "slug": "pinnacles",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Pinnacles formed from an ancient volcano split apart by the San Andreas Fault, its halves now far from each other. Talus caves thread through the rock, and California condors soar overhead. Spring wildflowers are spectacular.",
+    "highlights": ["Talus caves", "California condors", "Volcanic rock formations", "Spring wildflowers"],
+    "best_for": "Caves, condors, and spring blooms"
+  },
+  {
+    "name": "Redwood",
+    "slug": "redwood",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Redwood protects the world's tallest trees in misty groves along California's north coast. Walking among old-growth redwoods is a humbling experience. Fern Canyon's walls drip with ferns and five-fingered moss.",
+    "highlights": ["The world's tallest trees", "Old-growth groves", "Fern Canyon", "Roosevelt elk"],
+    "best_for": "Towering old-growth forest"
+  },
+  {
+    "name": "Rocky Mountain",
+    "slug": "rocky-mountain",
+    "states": ["CO"],
+    "state_names": ["Colorado"],
+    "region": "West",
+    "intro": "Rocky Mountain's Trail Ridge Road climbs above treeline through tundra to sweeping alpine views. Elk bugle in the fall, and the park's peaks anchor Colorado's Front Range. Timed entry manages the summer crowds.",
+    "highlights": ["Trail Ridge Road", "Alpine tundra", "Elk in the fall", "Longs Peak"],
+    "best_for": "Alpine drives and classic Rockies scenery"
+  },
+  {
+    "name": "Saguaro",
+    "slug": "saguaro",
+    "states": ["AZ"],
+    "state_names": ["Arizona"],
+    "region": "West",
+    "intro": "Saguaro's two districts east and west of Tucson protect forests of the giant saguaro cactus, found only in the Sonoran Desert. Sunset among the cacti is unforgettable. The Cactus Forest Loop Drive is the classic tour.",
+    "highlights": ["Giant saguaro forests", "Desert sunsets", "Cactus Forest Loop Drive", "Rincon Mountain District"],
+    "best_for": "Iconic desert landscapes and sunsets"
+  },
+  {
+    "name": "Sequoia",
+    "slug": "sequoia",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Sequoia is home to the General Sherman Tree, the largest known living single-stem tree on Earth. The Giant Forest's groves inspire awe in every visitor. Moro Rock's staircase climbs to a sweeping Sierra panorama.",
+    "highlights": ["General Sherman Tree", "The Giant Forest", "Moro Rock", "Crystal Cave"],
+    "best_for": "The world's largest trees"
+  },
+  {
+    "name": "Shenandoah",
+    "slug": "shenandoah",
+    "states": ["VA"],
+    "state_names": ["Virginia"],
+    "region": "South",
+    "intro": "Shenandoah's Skyline Drive runs the crest of the Blue Ridge through forests famous for fall color. Waterfalls and viewpoints punctuate the park's trail system. Black bears are common, and the lodges are historic.",
+    "highlights": ["Skyline Drive", "Fall color", "Dark Hollow Falls", "Appalachian Trail section"],
+    "best_for": "Fall color and Blue Ridge drives"
+  },
+  {
+    "name": "Theodore Roosevelt",
+    "slug": "theodore-roosevelt",
+    "states": ["ND"],
+    "state_names": ["North Dakota"],
+    "region": "Midwest",
+    "intro": "Theodore Roosevelt's badlands along the Little Missouri River honor the conservation president who hunted and ranched here. Bison, wild horses, and prairie dogs fill the park. The South Unit's scenic loop road is the essential drive.",
+    "highlights": ["Painted badlands", "Bison and wild horses", "Maltese Cross Cabin", "Painted Canyon overlook"],
+    "best_for": "Badlands, bison, and presidential history"
+  },
+  {
+    "name": "Virgin Islands",
+    "slug": "virgin-islands",
+    "states": ["VI"],
+    "state_names": ["U.S. Virgin Islands"],
+    "region": "Caribbean",
+    "intro": "Virgin Islands National Park covers much of St. John, with white-sand beaches and coral reefs. Trunk Bay's underwater snorkel trail is famous worldwide. Old plantation ruins recall the island's sugar era.",
+    "highlights": ["Trunk Bay", "Underwater snorkel trail", "Coral reefs and beaches", "Annaberg plantation ruins"],
+    "best_for": "Beaches, snorkeling, and island history"
+  },
+  {
+    "name": "Voyageurs",
+    "slug": "voyageurs",
+    "states": ["MN"],
+    "state_names": ["Minnesota"],
+    "region": "Midwest",
+    "intro": "Voyageurs is a water-based park of lakes and islands on the Canadian border, best explored by boat or canoe. Houseboats are the classic way to stay. Winter brings snowmobile routes and ice roads across the frozen lakes.",
+    "highlights": ["Interconnected lakes", "Houseboating", "Northern lights", "Kabetogama Peninsula"],
+    "best_for": "Boating, fishing, and northern lights"
+  },
+  {
+    "name": "White Sands",
+    "slug": "white-sands",
+    "states": ["NM"],
+    "state_names": ["New Mexico"],
+    "region": "West",
+    "intro": "White Sands is the world's largest gypsum dunefield, waves of brilliant white sand in the Tularosa Basin. Sledding the dunes is pure joy. At sunset the dunes turn pink and gold.",
+    "highlights": ["Gypsum dune field", "Dune sledding", "Sunset colors", "Backcountry camping"],
+    "best_for": "White dunes and family sledding"
+  },
+  {
+    "name": "Wind Cave",
+    "slug": "wind-cave",
+    "states": ["SD"],
+    "state_names": ["South Dakota"],
+    "region": "Midwest",
+    "intro": "Wind Cave is one of the world's longest caves, famous for rare boxwork formations found almost nowhere else. Above ground, mixed-grass prairie holds bison and prairie dogs. The cave's natural 'breathing' entrance gave it its name.",
+    "highlights": ["Boxwork formations", "Guided cave tours", "Bison on the prairie", "The breathing entrance"],
+    "best_for": "Unique cave formations and prairie wildlife"
+  },
+  {
+    "name": "Wrangell-St. Elias",
+    "slug": "wrangell-st-elias",
+    "states": ["AK"],
+    "state_names": ["Alaska"],
+    "region": "West",
+    "intro": "America's largest national park, Wrangell-St. Elias is a vast Alaskan wilderness of towering peaks, massive glaciers, and the historic Kennecott copper mines. Two rough roads penetrate the interior; the rest is pure backcountry.",
+    "highlights": ["The largest U.S. national park", "Kennecott Mines historic site", "Enormous glaciers", "McCarthy Road adventure"],
+    "best_for": "Epic scale and frontier history"
+  },
+  {
+    "name": "Yellowstone",
+    "slug": "yellowstone",
+    "states": ["WY", "MT", "ID"],
+    "state_names": ["Wyoming", "Montana", "Idaho"],
+    "region": "West",
+    "intro": "The world's first national park, Yellowstone is a supervolcano's showcase: geysers, hot springs, and the Grand Canyon of the Yellowstone. Old Faithful and Grand Prismatic Spring are icons. Bison, wolves, and bears roam the valleys.",
+    "highlights": ["Old Faithful", "Grand Prismatic Spring", "Grand Canyon of the Yellowstone", "Lamar Valley wildlife"],
+    "best_for": "Geysers, wildlife, and the classic park experience"
+  },
+  {
+    "name": "Yosemite",
+    "slug": "yosemite",
+    "states": ["CA"],
+    "state_names": ["California"],
+    "region": "West",
+    "intro": "Yosemite Valley's granite walls, El Capitan and Half Dome, are among the most famous landscapes on Earth. Waterfalls thunder in spring, and giant sequoias grow in three groves. The valley's viewpoints are pilgrimage sites for nature lovers.",
+    "highlights": ["El Capitan and Half Dome", "Yosemite Falls", "Tunnel View", "Mariposa Grove of sequoias"],
+    "best_for": "Granite icons and waterfall season"
+  },
+  {
+    "name": "Zion",
+    "slug": "zion",
+    "states": ["UT"],
+    "state_names": ["Utah"],
+    "region": "West",
+    "intro": "Zion's massive sandstone cliffs glow red and cream above the Virgin River canyon. Angels Landing and the Narrows are bucket-list hikes. A shuttle system keeps the main canyon quiet and car-free in season.",
+    "highlights": ["Angels Landing", "The Narrows", "Canyon shuttle", "Kolob Canyons"],
+    "best_for": "Towering canyon hikes and scenery"
+  }
+]
